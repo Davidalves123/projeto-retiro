@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+body{
+    background-color: #71F5A6;
+    color: white;
+}
+
+header{
+    background-color: #45b873;
+    text-align: center;
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.445);
+}
+ header > h1{
+    font-size: 2.5em;
+ }
+
+ header > h2{
+    padding: 10px;
+ }
+
+ header > p{
+    width: 300px;
+    margin: auto;
+ }
+
+ main{
+    background-color: #c2ec2a;
+    color: black;
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.288);
+    border-radius: 0px 0px 10px 10px;
+ }
+
+ #local{
+    background-image:  url('imagens/imagem-escolajpeg.jpeg');
+    background-position: center center;
+    padding: 10px 150px 150px 10px;
+    border-radius: 10px;
+    color: rgb(123, 139, 76);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.329);
+ }
+
+ #local > h2{
+    font-size: 2em;
+    padding: 0px 0px 5px 0px;
+ }
+
+ #local > p{
+    padding: 0px 0px 5px 0px;
+    font-size: 1.2em;
+    max-width: 300px;
+ }
+
+.link{
+    padding: 5px;
+    background-color: #ccb291;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+}
+.link a{
+    color:  rgb(123, 139, 76);;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: #8C4E2A;
+    transition-duration: 0.5s;
+    color: rgb(169, 189, 109);
+}
+
+#data{
+    margin-top: 50px;
+    background-image: url('imagens/calendario.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 150px 150px 10px;
+    border-radius: 10px;
+    color: rgb(155, 95, 95);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.329);
+}
+
+#data > h2{
+    font-size: 2em;
+    padding: 0px 0px 5px 0px;
+}
+
+#data > p{
+    padding: 0px 0px 5px 0px;
+    font-size: 1.2em;
+    max-width: 300px;
+}
+
+#contribuicao{
+    margin-top: 50px;
+    background-color: #B3FF5C;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.329);
+}
+
+#contribuicao > h2{
+    font-size: 2em;
+    padding: 0px 0px 5px 0px;
+}
+
+#contribuicao > p{
+    padding: 0px 0px 5px 0px;
+    font-size: 1.2em;
+    max-width: 300px;
+}
+
+#cancelamento {
+    background-color: #5CFF84;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.329);
+}
+
+#cancelamento > h2{
+    font-size: 2em;
+    padding: 0px 0px 5px 0px;
+}
+
+#cancelamento > p{
+    font-size: 1.2em;
+    max-width: 300px;
+}
+
+#acontecimentos{
+    background-color: #6FFF5D;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.329);
+}
+
+#acontecimentos > h2{
+    font-size: 2em;
+    padding: 0px 0px 5px 0px;
+}
+
+#acontecimentos > p{
+    font-size: 1.2em;
+    max-width: 300px;
+}
+
+#inscricao{
+    background-color: #F7FF5C;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2em;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.329);
+    margin: 50px 45px 0px 45px;
+}
+
+#inscricao > a{
+    color: rgb(123, 139, 76);
+    text-decoration: none;
+}
+
+#inscricao:hover{
+    background-color: rgb(194, 167, 13);
+}
+
+footer{
+    background-color: white;
+    color: black;
+    padding: 50px 0px 50px 10px;
+    border: 10px 10px 0px 0px;
+}
+
+footer > h2{
+    font-size: 2em;
+}
+
+footer > p{
+    font-size: 1.2em;
+    padding-top: 5px;
+}
